@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .left{
+      display:flex;
+      color:white;
+      justify-content: left;
+      margin-right: 0;   
+    }
+    nav{
+      background-color: darkblue;
+      overflow:hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 16px;
+    }
+    nav ul{
+      list-style: none;
+      padding: 0;
+      margin:0;
+    }
+    nav li{
+      float:left;
+    }
+    nav li a{
+      display:block;
+      color:white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration:none
+    }
+    nav li a:hover{
+      background-color:chocolate;
+    }
+    h1{
+      text-align: center;
+      color:darkblue;
+    }
+    p{
+      font-size: 16px;
+      text-align: justify;
+      color: dark grey;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    .gallery{
+      display: flex;
+      flex-wrap:wrap;
+      gap:10px;
+      justify-content: center;
+    }
+    .gallery img{
+      border:2px solid darkblue;
+      border-radius: 4px;
+      padding:5px;
+      width:300px;
+      height:200px;
+      transition: transform 0.2s;
+    }
+    .gallery img:hover{
+      transform:scale(1.05);
+    }
+    footer{
+      background-color: darkblue;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom:0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="left">
+<span style="color:chocolate"</style>Ru</span> Bic Hospital
+    </div>
+    <ul>
+      <li> <a href="#">HOME</a></li>
+      <li> <a href="signup.html">REGISTER</a></li>
+      <li> <a href="login.html"> LOGIN</a></li>
+      <li> <a href="about.html">ABOUT US</a></li>
+      <li> <a href="contact.html">CONTACT US</a></li>
+      <li> <a href="gallery.html">GALLERY</a></li>
+     
+    </ul>
+  </nav>
+  <h1> WELCOME TO RUBIC INTERNATIONAL</h1>
+<p> The RUBIC  Hospital International is a non-profit organization that is leading in medical expertise and 
+  service provision, with deservedly earned recognition throughout East Africa and beyond 
+  as an advanced diagnostic, treatment and referral centre.</p>
+<p> Investment in the latest technology
+  and medical equipment has seen us establish leadership in medical 
+  procedures both in Kenya and beyond</p>
+<p> Thank you for trusting us, Welcome again</p>
+<div class="gallery">
+  <img src="imagess/icon1.jpg" alt="Hospital">
+  <img src="imagess/icon2.jpg" alt="lobby">
+  <img src="imagess/icon3.jpg" alt="nurses">
+  <img src="imagess/icon4.jpg" alt="nurses">
+  <img src="imagess/icon5.jpg" alt="students">
+  <img src="imagess/icon6.jpg" alt="doctors">
+  <img src="imagess/icon7.jpg" alt="medicine">
+  <img src="imagess/icon8.jpg" alt="medicine">
+</div>
+<footer>
+  <div>
+    &copy;2025 RUBIC HOSPITAL INTERNATIONAL. All RIGHTS RESERVED
+  </div>
+</footer>
+</body>
+</html>
